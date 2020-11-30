@@ -290,8 +290,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 1, z: -10}
+=======
+  m_LocalRotation: {x: 0.31181893, y: -0, z: -0, w: 0.9501416}
+  m_LocalPosition: {x: 601, y: 295, z: -164}
+>>>>>>> parent of 8ddf727... Modificacion Terrain: Tipo Amazonico a Tipo Pantano
 =======
   m_LocalRotation: {x: 0.31181893, y: -0, z: -0, w: 0.9501416}
   m_LocalPosition: {x: 601, y: 295, z: -164}
@@ -301,7 +306,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+  m_LocalEulerAnglesHint: {x: 36.338, y: 0, z: 0}
+>>>>>>> parent of 8ddf727... Modificacion Terrain: Tipo Amazonico a Tipo Pantano
 =======
   m_LocalEulerAnglesHint: {x: 36.338, y: 0, z: 0}
 >>>>>>> parent of 8ddf727... Modificacion Terrain: Tipo Amazonico a Tipo Pantano
