@@ -7,7 +7,8 @@ public class IAEnemy : MonoBehaviour
 {
     public GameObject Target;
     public NavMeshAgent agent;
-
+    public float speedEnemy;
+    public int damage;
     public float distance;
     public Health healthScript;
 
@@ -17,7 +18,7 @@ public class IAEnemy : MonoBehaviour
         if (Vector3.Distance(Target.transform.position, transform.position) < distance)
         {
             agent.SetDestination(Target.transform.position);
-            agent.speed = 5;
+            agent.speed = speedEnemy;
         }
         else
         {
@@ -26,7 +27,7 @@ public class IAEnemy : MonoBehaviour
 
         if(Vector3.Distance(Target.transform.position, transform.position) <= 2.5)
         {
-            healthScript.healths -= 5;
+            healthScript.healths -= damage;
         }
     }
 }
