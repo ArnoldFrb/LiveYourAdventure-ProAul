@@ -9,7 +9,7 @@ public class IAEnemyAdvanced : MonoBehaviour
     public GameObject Target;
     public NavMeshAgent agent;
     public float speedEnemy;
-    public int damage;
+    public float damage;
     public float distance;
 
     [Header("Settings Health")]
