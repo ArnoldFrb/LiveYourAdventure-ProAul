@@ -6,12 +6,12 @@ using UnityEngine.UI;
 public class Health : MonoBehaviour
 {
     public Text health;
-    public int healths = 1000;
+    public int healths = 5000;
 
     // Update is called once per frame
     void Update()
     {
-        health.text = "VIDA: 1000/" + healths;
+        health.text = "VIDA: 5000/" + healths;
 
         if(healths < 1)
         {
