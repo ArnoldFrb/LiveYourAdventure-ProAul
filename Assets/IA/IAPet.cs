@@ -19,21 +19,21 @@ public class IAPet : MonoBehaviour
         {
             agent.SetDestination(Target.transform.position);
             agent.speed = speed;
-            
+            RunTrue();
         }
         else
         {
             agent.speed = 0;
         }
 
-        if (Vector3.Distance(Target.transform.position, transform.position) > agent.stoppingDistance + 0.3)
+        if (Vector3.Distance(Target.transform.position, transform.position) > agent.stoppingDistance + 0.2)
         {
             RunTrue();
         }
         else
         {
-            RunFalse();
             agent.speed = 0;
+            RunFalse();
         }
     }
 

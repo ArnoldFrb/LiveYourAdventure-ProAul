@@ -8,6 +8,7 @@ public class IAEnemyAdvanced : MonoBehaviour
     [Header("Settings IA Basic")]
     public GameObject Target;
     public NavMeshAgent agent;
+    public Animator Anim;
     public float speedEnemy;
     public float damage;
     public float distance;
@@ -53,10 +54,15 @@ public class IAEnemyAdvanced : MonoBehaviour
             }
         }
 
-        //IA BASIC
-        if (Vector3.Distance(Target.transform.position, transform.position) <= 2.5)
+        //IA ADVANCE
+        if (Vector3.Distance(Target.transform.position, transform.position) < agent.stoppingDistance + 2)
         {
+            AttackTrue();
             healthScript.healths -= damage;
+        }
+        else
+        {
+            AttackFalse();
         }
     }
 
@@ -64,5 +70,15 @@ public class IAEnemyAdvanced : MonoBehaviour
     public void Turn()
     {
         y = Random.Range(-3, 3);
+    }
+
+    void AttackTrue()
+    {
+        Anim.SetBool("Attack", true);
+    }
+
+    void AttackFalse()
+    {
+        Anim.SetBool("Attack", false);
     }
 }
