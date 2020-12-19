@@ -15,6 +15,7 @@ public class IAEnemyAdvanced : MonoBehaviour
 
     [Header("Settings Health")]
     public Health healthScript;
+    public HealthEnemy Enemy;
 
     [Header("Settings IA Passive")]
     public int time;
@@ -59,6 +60,7 @@ public class IAEnemyAdvanced : MonoBehaviour
         {
             AttackTrue();
             healthScript.healths -= damage;
+            Enemy.healths -= 0.005f;
         }
         else
         {
