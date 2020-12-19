@@ -2963,10 +2963,10 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_Sprite: {fileID: 21300000, guid: 9200f0fcf63bb334399db5179e2de830, type: 3}
-  m_Type: 0
+  m_Type: 3
   m_PreserveAspect: 0
   m_FillCenter: 1
-  m_FillMethod: 4
+  m_FillMethod: 0
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
@@ -4904,6 +4904,7 @@ MonoBehaviour:
   damage: 0.0018
   distance: 50
   healthScript: {fileID: 596120737}
+  Enemy: {fileID: 435032253}
   time: 0
   timeOfTurn: 0
   y: 0
@@ -4964,6 +4965,21 @@ Animator:
     type: 3}
   m_PrefabInstance: {fileID: 167591485}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &435032253
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 435032246}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72fd563c19b5f604f9d530fcae55917e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Ihealth: {fileID: 206082378}
+  healths: 1
+  Enemy: {fileID: 435032246}
 --- !u!1 &442416705 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 188958, guid: 2082f115d38a4a94fabde959cb0bfd45,
@@ -7475,6 +7491,7 @@ MonoBehaviour:
   damage: 0.0015
   distance: 50
   healthScript: {fileID: 596120737}
+  Enemy: {fileID: 623786974}
   time: 0
   timeOfTurn: 0
   y: 0
@@ -7535,6 +7552,21 @@ Animator:
     type: 3}
   m_PrefabInstance: {fileID: 183838751}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &623786974
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 623786967}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72fd563c19b5f604f9d530fcae55917e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Ihealth: {fileID: 1040676364}
+  healths: 1
+  Enemy: {fileID: 623786967}
 --- !u!1001 &625383618
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10660,8 +10692,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 844772421}
-  m_LocalRotation: {x: 0, y: 0.10408319, z: 0, w: -0.9945686}
-  m_LocalPosition: {x: 2080.9329, y: 29.719261, z: 1261.0542}
+  m_LocalRotation: {x: -0.03738103, y: 0.96009153, z: 0.1572152, w: 0.22827704}
+  m_LocalPosition: {x: 1984.3259, y: -44.48903, z: 1384.1357}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -12013,6 +12045,7 @@ MonoBehaviour:
   damage: 0.0009
   distance: 50
   healthScript: {fileID: 596120737}
+  Enemy: {fileID: 1036839311}
   time: 0
   timeOfTurn: 0
   y: 0
@@ -12051,6 +12084,21 @@ Animator:
     type: 3}
   m_PrefabInstance: {fileID: 592840405}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1036839311
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1036839304}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72fd563c19b5f604f9d530fcae55917e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Ihealth: {fileID: 1384428695}
+  healths: 1
+  Enemy: {fileID: 1036839304}
 --- !u!1 &1039050648
 GameObject:
   m_ObjectHideFlags: 0
@@ -12183,10 +12231,10 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_Sprite: {fileID: 21300000, guid: 9200f0fcf63bb334399db5179e2de830, type: 3}
-  m_Type: 0
+  m_Type: 3
   m_PreserveAspect: 0
   m_FillCenter: 1
-  m_FillMethod: 4
+  m_FillMethod: 0
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
@@ -14743,10 +14791,10 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_Sprite: {fileID: 21300000, guid: 9200f0fcf63bb334399db5179e2de830, type: 3}
-  m_Type: 0
+  m_Type: 3
   m_PreserveAspect: 0
   m_FillCenter: 1
-  m_FillMethod: 4
+  m_FillMethod: 0
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
@@ -15170,10 +15218,10 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_Sprite: {fileID: 21300000, guid: 9200f0fcf63bb334399db5179e2de830, type: 3}
-  m_Type: 0
+  m_Type: 3
   m_PreserveAspect: 0
   m_FillCenter: 1
-  m_FillMethod: 4
+  m_FillMethod: 0
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
@@ -17186,6 +17234,7 @@ MonoBehaviour:
   damage: 0.0021
   distance: 50
   healthScript: {fileID: 596120737}
+  Enemy: {fileID: 1608963644}
   time: 0
   timeOfTurn: 0
   y: 0
@@ -17246,6 +17295,21 @@ Animator:
     type: 3}
   m_PrefabInstance: {fileID: 722901778}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1608963644
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1608963637}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72fd563c19b5f604f9d530fcae55917e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Ihealth: {fileID: 1707096773}
+  healths: 1
+  Enemy: {fileID: 1608963637}
 --- !u!1001 &1610732863
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18384,10 +18448,10 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_Sprite: {fileID: 21300000, guid: 9200f0fcf63bb334399db5179e2de830, type: 3}
-  m_Type: 0
+  m_Type: 3
   m_PreserveAspect: 0
   m_FillCenter: 1
-  m_FillMethod: 4
+  m_FillMethod: 0
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
@@ -21060,6 +21124,7 @@ MonoBehaviour:
   damage: 0.0006
   distance: 50
   healthScript: {fileID: 596120737}
+  Enemy: {fileID: 1957926641}
   time: 0
   timeOfTurn: 0
   y: 0
@@ -21120,6 +21185,21 @@ Animator:
     type: 3}
   m_PrefabInstance: {fileID: 1759323878}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1957926641
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1957926634}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72fd563c19b5f604f9d530fcae55917e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Ihealth: {fileID: 1279937009}
+  healths: 1
+  Enemy: {fileID: 1957926634}
 --- !u!1001 &1960265188
 PrefabInstance:
   m_ObjectHideFlags: 0
